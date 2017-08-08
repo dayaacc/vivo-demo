@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*头部satrt*/
+.header {
+  width: 10rem;
+  height: 6.08333rem;
+  background: #00aeff;
+  overflow: hidden;
+  position: relative; }
+  .header a {
+    color: #fff; }
+
+.header-title {
+  margin-top: 1.13889rem;
+  padding: 0 0.47222rem;
+  height: 0.61111rem;
+  line-height: 0.61111rem;
+  position: relative;
+  font-size: 0.38889rem; }
+  .header-title .bibi {
+    position: absolute;
+    right: 0.47222rem; }
+  .header-title .yuan {
+    display: block;
+    position: absolute;
+    top: -0.13889rem;
+    left: 1.36111rem;
+    width: 0.27778rem;
+    height: 0.27778rem;
+    border-radius: 50%;
+    background: #ff4142; }
+  .header-title img {
+    height: 0.61111rem;
+    width: 0.61111rem; }
+
+/*img cont*/
+.header-img {
+  width: 100%;
+  position: absolute;
+  top: 1.13889rem; }
+
+.img-cont {
+  width: 2.27778rem;
+  margin: 0 auto; }
+  .img-cont img {
+    width: 2.27778rem;
+    height: 2.27778rem; }
+  .img-cont p {
+    text-align: center;
+    margin-top: 0.25rem; }
+
+.cart {
+  width: 100%;
+  position: absolute;
+  bottom: 0.41667rem; }
+  .cart ul {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    font-size: 0.33333rem; }
+    .cart ul li {
+      width: 25%;
+      text-align: center; }
+      .cart ul li .iconfont {
+        font-size: 0.58333rem; }
+  .cart .text {
+    margin-top: 0.38889rem; }
+
+/*center start*/
+.body-center {
+  width: 100%;
+  height: 9.02778rem;
+  background: #fff;
+  font-size: 0.33333rem;
+  overflow: hidden; }
+
+.center-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .center-list li {
+    width: 33.333%;
+    text-align: center; }
+    .center-list li img {
+      height: 0.77778rem;
+      width: 0.69444rem;
+      margin-top: 1.05556rem; }
+    .center-list li p {
+      margin-top: 0.47222rem; }
+
+/*分割线*/
+.fenge {
+  width: 100%;
+  height: 0.13889rem;
+  background: #fffbff; }
+
+/*pace start*/
+.my-pace {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 1.38889rem; }
+
+.pace-tt {
+  padding: 0 0.41667rem;
+  margin-top: 0.41667rem;
+  font-size: 0.38889rem;
+  position: relative; }
+  .pace-tt b {
+    position: absolute;
+    right: 0.55556rem;
+    display: inline-block;
+    width: 0.38889rem;
+    height: 0.38889rem; }
+    .pace-tt b img {
+      width: 0.38889rem;
+      height: 0.38889rem;
+      transform: rotate(-90deg); }
+
+.pace-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .pace-list li {
+    width: 33%;
+    text-align: center;
+    margin-top: 0.88889rem; }
+    .pace-list li img {
+      width: 0.69444rem;
+      height: 0.83333rem; }
+    .pace-list li p {
+      margin-top: 0.5rem; }
+
+/*脚步导航*/
+.footer-nav {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 1.38889rem;
+  background: #fff;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  overflow: hidden; }
+
+.nav-list1 {
+  width: 100%;
+  height: 1.05556rem;
+  display: flex; }
+  .nav-list1 li {
+    width: 25%;
+    height: 1.05556rem;
+    line-height: 1.05556rem;
+    text-align: center; }
+    .nav-list1 li a {
+      display: flex;
+      flex-direction: column;
+      position: relative; }
+    .nav-list1 li .iconfont {
+      font-size: 0.61111rem; }
+
+.nav-list2 {
+  position: absolute;
+  top: 0.92593rem;
+  width: 100%;
+  height: 0.33333rem;
+  display: flex; }
+  .nav-list2 li {
+    width: 25%;
+    height: 0.33333rem;
+    line-height: 0.33333rem;
+    text-align: center; }
+    .nav-list2 li a {
+      display: flex;
+      flex-direction: column;
+      position: relative; }

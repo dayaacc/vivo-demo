@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0 auto; }
+
+body {
+  font-family: "Arial";
+  font-size: 75%;
+  color: #000;
+  background-color: #008cd6;
+  margin: 0;
+  padding: 0;
+  font-weight: normal; }
+  body a {
+    color: #999999;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer; }
+
+.header {
+  width: 100%;
+  overflow: hidden; }
+
+.header-cont {
+  width: 100%;
+  margin-bottom: 0.33333rem; }
+  .header-cont p {
+    font-size: 0.55556rem;
+    color: #fff;
+    font-weight: normal;
+    margin: 0 auto 0.69444rem;
+    text-align: center; }
+
+.logo {
+  display: block;
+  width: 3.61111rem;
+  height: 0.97222rem;
+  margin: 0.83333rem auto 0.69444rem; }
+  .logo img {
+    width: 3.61111rem;
+    height: 0.97222rem; }
+
+.login-list {
+  border-radius: 0.13889rem;
+  background-color: #fff;
+  width: 95%;
+  margin: 0.33333rem auto 1rem; }
+  .login-list li {
+    border-bottom: 1px solid #A3CBEB;
+    text-align: center;
+    line-height: 1.25rem;
+    position: relative;
+    padding: 0 0.33333rem;
+    text-align: left; }
+    .login-list li b {
+      width: 0.63889rem;
+      height: 0.63889rem;
+      overflow: hidden;
+      background: url("../images/m-regjudge-ico.png") no-repeat;
+      background-size: 1.27778rem 0.63889rem;
+      position: absolute;
+      top: 0.27778rem;
+      right: 0.22222rem;
+      display: none; }
+    .login-list li .current {
+      background-position: -0.63889rem 0;
+      display: block; }
+  .login-list input {
+    border: none;
+    width: 100%;
+    font-size: 0.55556rem; }
+  .login-list input:focus {
+    border: none; }
+  .login-list .errmessage {
+    position: absolute;
+    top: 0px;
+    right: 0.97222rem;
+    display: none; }
+
+button {
+  width: 100%;
+  border-radius: 0.08333rem;
+  border: none;
+  cursor: pointer;
+  height: 1.33333rem;
+  line-height: 1.33333rem;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.66667rem; }
+
+.login-btn {
+  width: 95%;
+  overflow: hidden;
+  margin: 0px auto; }
+  .login-btn button {
+    background-color: #cce8f7;
+    color: #008cd6; }
+
+.reg-btn {
+  width: 95%;
+  overflow: hidden;
+  margin: 0px auto; }
+  .reg-btn button {
+    color: #008cd6;
+    background-color: #FFF; }
+
+/*link start*/
+.link {
+  text-align: right;
+  width: 95%;
+  margin: 0.66667rem auto; }
+  .link a {
+    color: #a3cbeb;
+    margin: 0.66667rem;
+    font-size: 0.46296rem; }
+
+/*other-login start*/
+.other-login {
+  text-align: center;
+  width: 95%;
+  margin: 0.33333rem auto;
+  font-size: 0.46296rem; }
+  .other-login p {
+    color: #a3cbeb;
+    margin: 0.33333rem auto; }
+  .other-login a {
+    width: 1.38889rem;
+    height: 1.38889rem;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 0.27778rem;
+    border-radius: 0.16667rem; }
+    .other-login a b {
+      width: 1.38889rem;
+      height: 1.38889rem;
+      display: inline-block;
+      overflow: hidden;
+      background: url("../images/m-login-om-ico.png") no-repeat;
+      background-size: 6.61111rem 0.88889rem; }
+  .other-login .qq {
+    background: #5ca3e1; }
+    .other-login .qq b {
+      background-position: 0.27778rem center; }
+  .other-login .weibo {
+    background: #ff5858; }
+    .other-login .weibo b {
+      background-position: -2.55556rem center; }
+  .other-login .renren {
+    background: #6a9bec; }
+    .other-login .renren b {
+      background-position: -5.52778rem center; }

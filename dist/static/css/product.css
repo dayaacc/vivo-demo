@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/*头部satrt*/
+h2, h3, h4, h5 {
+  font-family: "微软雅黑"; }
+
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 1.33333rem;
+  width: 10rem;
+  background: rgba(255, 255, 255, 0.99);
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+  z-index: 99; }
+
+.logo {
+  height: 100%;
+  width: 50%; }
+  .logo a {
+    display: block;
+    height: 100%;
+    width: 2.08333rem;
+    background: url("../images/logo.png") no-repeat center;
+    margin-left: 0.27778rem;
+    background-size: 2.08333rem 0.69444rem; }
+
+.person {
+  height: 100%;
+  width: 50%; }
+  .person a {
+    display: block;
+    height: 100%;
+    width: 0.83333rem;
+    background: url("../images/zhuce.png") no-repeat center center;
+    margin-left: 3.88889rem;
+    background-size: 0.83333rem 0.83333rem; }
+
+.container {
+  width: 100%;
+  padding-top: 1.33333rem; }
+
+/*slider start*/
+.slider {
+  width: 100%;
+  height: 6.94444rem; }
+  .slider img {
+    height: 6.94444rem;
+    width: 13.88889rem;
+    vertical-align: middle;
+    position: absolute;
+    left: -1.94444rem; }
+  .slider .swiper-container {
+    height: 100%;
+    width: 100%; }
+    .slider .swiper-container .swiper-wrapper {
+      height: 100%;
+      width: 100%; }
+    .slider .swiper-container .swiper-slide {
+      overflow: hidden;
+      position: relative; }
+  .slider .swiper-pagination span {
+    height: 0.16667rem;
+    width: 0.16667rem; }
+  .slider .swiper-pagination .swiper-pagination-bullet-active {
+    background: #fff; }
+
+/*product-list start*/
+.product-lists {
+  width: 100%; }
+
+.xplay:first-child {
+  border-top: none; }
+
+.xplay {
+  border-top: 1px #e5e5e5 solid; }
+  .xplay dt {
+    height: 1.38889rem;
+    line-height: 1.38889rem;
+    background: rgba(0, 0, 0, 0.02);
+    font-size: 0.44444rem; }
+    .xplay dt a {
+      display: block;
+      height: 1.38889rem;
+      padding-right: 0.27778rem;
+      padding-left: 0.27778rem;
+      position: relative;
+      color: #000; }
+      .xplay dt a em {
+        display: inline-block;
+        height: 0.83333rem;
+        width: 0.83333rem;
+        vertical-align: middle; }
+      .xplay dt a b {
+        display: inline-block;
+        width: 0.83333rem;
+        height: 0.83333rem;
+        position: absolute;
+        right: 0.27778rem;
+        top: 50%;
+        margin-top: -0.41667rem; }
+        .xplay dt a b img {
+          width: 0.83333rem;
+          height: 0.83333rem; }
+  .xplay .products {
+    display: none;
+    border-top: 1px #e5e5e5 solid;
+    height: auto;
+    overflow: hidden; }
+    .xplay .products a {
+      border-bottom: 1px #f2f2f2 solid;
+      display: block;
+      height: 2.77778rem;
+      padding: 0.69444rem 0;
+      position: relative;
+      display: flex; }
+      .xplay .products a figure {
+        height: 2.77778rem;
+        width: 2.77778rem;
+        margin-right: 0.27778rem; }
+        .xplay .products a figure img {
+          height: 2.77778rem;
+          width: 2.77778rem; }
+      .xplay .products a h2 {
+        font-size: 0.44444rem;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-top: 0.75rem; }
+      .xplay .products a em {
+        position: absolute;
+        top: 50%;
+        right: 0.27778rem;
+        margin-top: -0.41667rem;
+        display: inline-block;
+        height: 0.83333rem;
+        width: 0.83333rem; }
+        .xplay .products a em img {
+          height: 0.83333rem;
+          width: 0.83333rem; }
+    .xplay .products a:last-child {
+      border-bottom: none; }
+
+/*all start*/
+.products-nav {
+  width: 100%;
+  overflow: hidden; }
+  .products-nav .product-all {
+    height: 1.38889rem;
+    line-height: 1.38889rem;
+    text-align: center; }
+    .products-nav .product-all a {
+      display: inline-block;
+      height: 1.38889rem;
+      font-size: 0.44444rem;
+      position: relative; }
+    .products-nav .product-all em {
+      position: absolute;
+      top: 50%;
+      right: -0.83333rem;
+      margin-top: -0.41667rem;
+      display: inline-block;
+      width: 0.83333rem;
+      height: 0.83333rem; }
+      .products-nav .product-all em img {
+        height: 0.83333rem;
+        width: 0.83333rem;
+        transform: rotate(-90deg); }
+
+/*footer start*/
+.footer {
+  width: 10rem;
+  height: 10.83333rem;
+  background: #292a2c;
+  overflow: hidden; }
+
+.footer-icon {
+  width: 100%;
+  height: 0.83333rem;
+  padding-top: 0.55556rem;
+  text-align: center;
+  line-height: 0.83333rem; }
+  .footer-icon span {
+    display: inline-block;
+    margin-right: 0.27778rem;
+    margin-left: 0.33333rem;
+    height: 0.83333rem;
+    line-height: 0.83333rem;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 0.38889rem; }
+  .footer-icon span:first-child {
+    margin-left: 0; }
+  .footer-icon a {
+    display: inline-block;
+    height: 0.83333rem;
+    width: 0.83333rem;
+    border-radius: 0.16667rem;
+    vertical-align: middle;
+    margin-right: 0.09259rem; }
+  .footer-icon img {
+    height: 0.83333rem;
+    width: 0.83333rem; }
+  .footer-icon .weibo {
+    background-color: #f01634; }
+  .footer-icon .bbs {
+    background-color: #008cd6; }
+  .footer-icon .tieba {
+    background-color: #2319dc; }
+  .footer-icon .buluo {
+    background-color: #42b0f4; }
+  .footer-icon .kefu {
+    background-color: #008cd6; }
+
+.footer-link {
+  padding: 0.55556rem 0; }
+  .footer-link ul {
+    width: 100%;
+    text-align: center; }
+    .footer-link ul li {
+      display: inline-block;
+      width: 20%;
+      margin: 0.27778rem 0;
+      text-align: center;
+      border-left: 1px #3f4042 solid; }
+      .footer-link ul li a {
+        color: #fff;
+        font-size: 0.38889rem; }
+      .footer-link ul li .new_center, .footer-link ul li .kfzpt, .footer-link ul li .mzsm {
+        border-left: none; }
+
+.footer-center {
+  width: 100%;
+  height: 0.83333rem;
+  text-align: center; }
+  .footer-center a {
+    display: inline-block;
+    height: 0.83333rem;
+    line-height: 0.83333rem;
+    margin-right: 0.27778rem;
+    color: #fff;
+    font-size: 0.38889rem; }
+    .footer-center a b {
+      height: 0.83333rem;
+      width: 0.83333rem;
+      display: inline-block;
+      vertical-align: middle; }
+      .footer-center a b img {
+        height: 0.83333rem;
+        width: 0.83333rem; }
+
+.copy-right {
+  width: 100%;
+  padding-top: 0.83333rem;
+  text-align: center; }
+  .copy-right p {
+    margin-top: 0.27778rem;
+    text-align: left;
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle; }
+    .copy-right p a {
+      color: #fff; }
+      .copy-right p a img {
+        height: 0.55556rem;
+        width: 0.55556rem; }
+
+.footer-logo {
+  width: 1.55556rem;
+  height: 0.41667rem;
+  margin-right: 7.03704rem; }
+  .footer-logo img {
+    width: 1.55556rem;
+    height: 0.41667rem; }
+
+/*gotop start*/
+.gotop {
+  position: fixed;
+  right: 0.27778rem;
+  bottom: 0.55556rem;
+  height: 1.25rem;
+  width: 1.25rem;
+  background: rgba(0, 0, 0, 0.6) url("../images/vivo-mb-gotop.png") no-repeat;
+  background-size: 1.25rem 1.25rem;
+  border-radius: 0.16667rem;
+  transition: all 0.5s cubic-bezier(0.3, 0.65, 0.4, 1);
+  z-index: 50; }
+
+/*footer nav start*/
+.footer-nav {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 1.38889rem;
+  background: #fff;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  overflow: hidden; }
+
+.nav-list1 {
+  width: 100%;
+  height: 1.05556rem;
+  display: flex; }
+  .nav-list1 li {
+    width: 25%;
+    height: 1.05556rem;
+    line-height: 1.05556rem;
+    text-align: center; }
+    .nav-list1 li a {
+      display: flex;
+      flex-direction: column;
+      position: relative; }
+    .nav-list1 li .iconfont {
+      font-size: 0.61111rem; }
+
+.nav-list2 {
+  position: absolute;
+  top: 0.92593rem;
+  width: 100%;
+  height: 0.33333rem;
+  display: flex; }
+  .nav-list2 li {
+    width: 25%;
+    height: 0.33333rem;
+    line-height: 0.33333rem;
+    text-align: center; }
+    .nav-list2 li a {
+      display: flex;
+      flex-direction: column;
+      position: relative; }

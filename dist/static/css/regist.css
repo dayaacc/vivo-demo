@@ -1,0 +1,226 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0 auto; }
+
+body {
+  font-family: "Arial";
+  font-size: 75%;
+  color: #000;
+  background-color: #008cd6;
+  margin: 0;
+  padding: 0;
+  font-weight: normal; }
+  body a {
+    color: #999999;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer; }
+
+.header {
+  width: 100%;
+  overflow: hidden; }
+
+.header-cont {
+  width: 100%;
+  margin-bottom: 0.33333rem; }
+  .header-cont p {
+    font-size: 0.55556rem;
+    color: #fff;
+    font-weight: normal;
+    margin: 0 auto 0.69444rem;
+    text-align: center; }
+
+.logo {
+  display: block;
+  width: 3.61111rem;
+  height: 0.97222rem;
+  margin: 0.83333rem auto 0.69444rem; }
+  .logo img {
+    width: 3.61111rem;
+    height: 0.97222rem; }
+
+.login-list {
+  border-radius: 0.13889rem;
+  background-color: #fff;
+  width: 95%;
+  margin: 0.33333rem auto 1rem; }
+  .login-list li {
+    border-bottom: 1px solid #A3CBEB;
+    text-align: center;
+    line-height: 1.25rem;
+    position: relative;
+    padding: 0 0.33333rem;
+    text-align: left; }
+    .login-list li b {
+      width: 0.63889rem;
+      height: 0.63889rem;
+      overflow: hidden;
+      background: url("../images/m-regjudge-ico.png") no-repeat;
+      background-size: 1.27778rem 0.63889rem;
+      position: absolute;
+      top: 0.27778rem;
+      right: 0.22222rem; }
+    .login-list li .current {
+      background-position: -0.63889rem 0;
+      display: block; }
+  .login-list .name-inp b, .login-list .phone-yzm b {
+    right: 42%; }
+  .login-list .check a {
+    color: #008cd6; }
+  .login-list .code-box {
+    position: absolute;
+    top: 0;
+    right: 1.66667rem;
+    border: solid 1px #f5f5f5;
+    background: #f5f5f5;
+    display: inline-block;
+    width: 2.08333rem;
+    height: 1.16667rem;
+    transition: all .3s ease-in-out; }
+    .login-list .code-box img {
+      width: 2.08333rem;
+      height: 1.16667rem; }
+  .login-list .change-code {
+    position: absolute;
+    top: 0;
+    right: 0.33333rem;
+    display: inline-block;
+    height: 1.25rem;
+    width: 1rem;
+    cursor: pointer; }
+  .login-list input {
+    border: none;
+    width: 100%;
+    font-size: 0.55556rem;
+    line-height: 0.83333rem;
+    font-size: 0.46296rem;
+    color: #000; }
+  .login-list .check-agree {
+    width: 0.36111rem;
+    height: 0.36111rem;
+    float: left;
+    margin-top: 0.41667rem;
+    margin-left: 0.27778rem;
+    font-size: 0.33333rem; }
+  .login-list .name, .login-list .phone-yzm-inp {
+    width: 60%; }
+  .login-list input:focus {
+    border: none; }
+  .login-list #btn-phone-yzm {
+    width: 35%;
+    color: #fff;
+    background: #008cd6;
+    border-radius: 0.08333rem;
+    line-height: 0.83333rem;
+    font-size: 0.38889rem; }
+
+button {
+  width: 100%;
+  border-radius: 0.08333rem;
+  border: none;
+  cursor: pointer;
+  height: 1.33333rem;
+  line-height: 1.33333rem;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.66667rem; }
+
+.login-btn {
+  width: 95%;
+  overflow: hidden;
+  margin: 0px auto; }
+  .login-btn button {
+    background-color: #cce8f7;
+    color: #008cd6; }
+
+/*input 部分*/
+/*other-login start*/
+.other-login {
+  text-align: center;
+  width: 95%;
+  margin: 0.33333rem auto;
+  font-size: 0.46296rem; }
+  .other-login p {
+    color: #a3cbeb;
+    margin: 0.33333rem auto; }
+  .other-login a {
+    width: 1.38889rem;
+    height: 1.38889rem;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 0.27778rem;
+    border-radius: 0.16667rem; }
+    .other-login a b {
+      width: 1.38889rem;
+      height: 1.38889rem;
+      display: inline-block;
+      overflow: hidden;
+      background: url("../images/m-login-om-ico.png") no-repeat;
+      background-size: 6.61111rem 0.88889rem; }
+  .other-login .qq {
+    background: #5ca3e1; }
+    .other-login .qq b {
+      background-position: 0.27778rem center; }
+  .other-login .weibo {
+    background: #ff5858; }
+    .other-login .weibo b {
+      background-position: -2.55556rem center; }
+  .other-login .renren {
+    background: #6a9bec; }
+    .other-login .renren b {
+      background-position: -5.52778rem center; }
+
+/*提示错误框*/
+.err-msg {
+  display: inline-block;
+  background-color: #F78B83;
+  border-color: #D95252;
+  color: #912323;
+  border-radius: 0.11111rem;
+  font-size: 0.33333rem;
+  height: 0.66667rem;
+  box-shadow: 0.02778rem 0.02778rem 0.08333rem 0.02778rem rgba(0, 0, 0, 0.15); }
+
+.chang {
+  width: 3.25rem;
+  position: absolute; }
+
+.one {
+  top: 4.35185rem;
+  left: 2.40741rem; }
+
+.duan {
+  width: 2.91667rem;
+  position: absolute; }
+
+.two {
+  top: 5.60185rem;
+  right: 1.57407rem; }
+
+.three {
+  top: 6.85185rem;
+  left: 2.40741rem; }
+
+.err-cont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  height: 0.66667rem;
+  text-align: center;
+  line-height: 0.66667rem;
+  padding: 0 0.25rem; }
+
+.sanjiao {
+  position: absolute;
+  right: -0.86111rem;
+  top: 0.11111rem;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 0.22222rem 0.44444rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #F78B83; }
